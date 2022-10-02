@@ -1,0 +1,14 @@
+.about_image {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8vh;
+}
+.about_image > img {
+  width: 35%;
+  object-fit: contain;
+}
